@@ -34,7 +34,7 @@
             {{$volo['gate']}}
           </div>
           <div class="col-2">
-            <button>Dettagli</button>
+            <a href="{{route('dettagliovolo', $volo['id'])}}">Dettagli</a>
           </div>
         </div>
         
