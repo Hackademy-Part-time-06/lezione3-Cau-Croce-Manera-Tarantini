@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [pageCotroller::class, 'homepage'])->name('hompage');
-Route::get('/detail', [pageCotroller::class, 'detail'])->name('detail');
+Route::get('/voli', [pageCotroller::class, 'voli'])->name('voli');
